@@ -1,0 +1,70 @@
+How Far will It Go in (MPG) Lets Play Prediction Game
+========================================================
+author: Manil Wagle
+date: 21 October 2015
+transition: rotate
+
+Introduction
+========================================================
+
+Developing Data Products is the final series of lecture in Data Science Specilization. This course requires us to do a project which involves building an application using shiny platform.This presentation aims to describe about ThePredictionGame application. The criteria given while creating this presentation areT.
+
+1. 5 slides to pictch our idea in Slidify or Rstudio Presenter
+2. It must be hosted on github or Rpubs.
+3. It must contain some embedded R code that gets run when slidifying the document.
+
+The Shiny app is hosted on https://manil.shinyapps.io/ThePredictionGame.
+
+The R Presentation is available at http://rpubs.com/manilwagle/116677
+                                and http://rpubs.com/manilwagle/116673
+
+Source code for ui.R and server.R files are available in my [GitHub repository]https://github.com/manilwagle/Developing_Data_Products.
+
+
+
+mtcars Dataset
+========================================================
+
+The application is designed to predict what mileage can be expected from the car based on the specified attributes as those informations will be required to run the application: The application uses mtcar Datasets.
+
+What is the weight of the car(in 1000 lbs)
+What is the horsepower of the car
+How many cylinders are in the car (4, 6, 8 or 10)
+What type of transmission does the car have, is it Automatic or Manual)
+
+
+```r
+head(mtcars)
+```
+
+```
+                   mpg cyl disp  hp drat    wt  qsec vs am gear carb
+Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
+Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
+Datsun 710        22.8   4  108  93 3.85 2.320 18.61  1  1    4    1
+Hornet 4 Drive    21.4   6  258 110 3.08 3.215 19.44  1  0    3    1
+Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
+Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
+```
+
+
+Things to Remember while using the application
+========================================================
+
+Some of the things to consider while using the application:
+
+1. Be familiar with the information about the car.
+2. Once information inputted, please press Ready to Go Button.
+3. The expected value will be displayed in The Magic Box.
+
+
+Click the Ready To Go button
+
+The Magic Box will displayed the expected value.
+
+
+
+The PredictionGame Application Screen
+========================================================
+
+![ThePredictionGame Screen](ThePredictionGame.png)
