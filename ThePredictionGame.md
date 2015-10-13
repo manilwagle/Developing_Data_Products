@@ -15,7 +15,7 @@ Developing Data Products is the final series of lecture in Data Science Speciliz
 
 The Shiny app is hosted on https://manil.shinyapps.io/ThePredictionGame.
 
-The R Presentation is available at http://rpubs.com/manilwagle/116677
+The R Presentation is available at http://rpubs.com/manilwagle/117392
                                 and http://rpubs.com/manilwagle/116673
 
 Source code for ui.R and server.R files are available in my [GitHub repository]https://github.com/manilwagle/Developing_Data_Products.
@@ -29,7 +29,7 @@ The application is designed to predict what mileage can be expected from the car
 
 What is the weight of the car(in 1000 lbs)
 What is the horsepower of the car
-How many cylinders are in the car (4, 6, 8 or 10)
+How many cylinders are in the car (4, 6, or 8 )
 What type of transmission does the car have, is it Automatic or Manual)
 
 
